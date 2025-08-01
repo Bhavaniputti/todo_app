@@ -48,4 +48,8 @@ Edit
 git clone https://github.com/Bhavaniputti/todo_app.git
 cd todo_app
 
+pip install -r requirements.txt
+
+python app.py
+
 Go to: http://localhost:5000
