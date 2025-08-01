@@ -23,31 +23,36 @@ Database: SQLite (via SQLAlchemy)
 Clone the repository
 
 bash
-Copy code
+Copy
+Edit
 git clone https://github.com/Bhavaniputti/todo_app.git
 cd todo_app
 Create virtual environment (optional but recommended)
 
 bash
-Copy code
+Copy
+Edit
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install dependencies
 
 bash
-Copy code
+Copy
+Edit
 pip install -r requirements.txt
 Run the app
 
 bash
-Copy code
+Copy
+Edit
 python app.py
 Open in browser
 Navigate to http://localhost:5000
 
 📁 Folder Structure
 csharp
-Copy code
+Copy
+Edit
 todo_app/
 │
 ├── app.py                # Main Flask app
