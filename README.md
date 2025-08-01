@@ -1,64 +1,71 @@
-📋 ToDo App
-A simple and intuitive ToDo list web application built with HTML, CSS, Python (Flask), and a SQLite database. This app helps users manage their tasks efficiently.
+# 📝 ToDo App
 
-🚀 Features
-✅ Add new tasks
+A simple and lightweight web-based ToDo list application that helps you keep track of your tasks. Built using **Python (Flask)** and **SQLite**.
 
-🗑️ Delete completed tasks
+---
 
-📝 Update task status (completed/incomplete)
+## 🚀 Features
 
-🗂️ Persistent storage using SQLite
+- ➕ Add new tasks
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- 📦 Persistent task storage using SQLite
+- 🖥️ Clean and minimal web UI
 
-🖥️ User-friendly web interface
+---
 
-🛠️ Tech Stack
-Frontend: HTML, CSS
+## 🛠️ Tech Stack
 
-Backend: Python with Flask
+- **Frontend**: HTML, CSS (via Flask templates)
+- **Backend**: Python, Flask
+- **Database**: SQLite (managed with SQLAlchemy)
 
-Database: SQLite (via SQLAlchemy)
+---
 
-🧑‍💻 How to Run Locally
-Clone the repository
+## 📂 Project Structure
 
-bash
+notes_app/
+│
+├── app.py # Main Flask application
+├── templates/
+│ └── index.html # HTML template for the app
+├── static/ # Optional: for CSS or JS
+├── Todo.db # SQLite database
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+
+yaml
 Copy
 Edit
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/Bhavaniputti/todo_app.git
 cd todo_app
-Create virtual environment (optional but recommended)
-
+2. Create Virtual Environment (Optional but Recommended)
 bash
 Copy
 Edit
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies
-
+# Activate it:
+# On Windows:
+venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
+3. Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-Run the app
-
+4. Run the Application
 bash
 Copy
 Edit
 python app.py
-Open in browser
-Navigate to http://localhost:5000
-
-📁 Folder Structure
-csharp
-Copy
-Edit
-todo_app/
-│
-├── app.py                # Main Flask app
-├── templates/
-│   └── index.html        # HTML for UI
-├── static/               # CSS/JS (if added)
-├── __pycache__/          # Python cache
-├── Todo.db               # SQLite database file
-└── README.md             # Project documentation
+5. Open in Browser
+Go to: http://localhost:5000
