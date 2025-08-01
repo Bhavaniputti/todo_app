@@ -47,25 +47,5 @@ Edit
 ```bash
 git clone https://github.com/Bhavaniputti/todo_app.git
 cd todo_app
-2. Create Virtual Environment (Optional but Recommended)
-bash
-Copy
-Edit
-python -m venv venv
-# Activate it:
-# On Windows:
-venv\Scripts\activate
-# On Mac/Linux:
-source venv/bin/activate
-3. Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-4. Run the Application
-bash
-Copy
-Edit
-python app.py
-5. Open in Browser
+
 Go to: http://localhost:5000
